@@ -53,15 +53,19 @@
   <main>
     <section><div class="wrap"><h2>About</h2><p class="lead">I am a postdoctoral researcher in Electrical and Computer Engineering at UCLA and lead the LCLS subgroup. I work closely with the Laser Science Group at SLAC National Accelerator Laboratory. My work combines physics-guided machine learning, inverse design, nonlinear optics, and programmable laser shaping.</p></div></section>
     <section id="news" class="award"><div class="wrap"><h2>News</h2><ul class="news-list">
+      <li><span class="news-date">2026.08</span>🎉 Our paper, <a href="https://www.spiedigitallibrary.org/journals/advanced-photonics-nexus/volume-5/issue-6/066002/Tunable-phase-coherent-FWM-for-quantum-wavelength-interconnects/10.1117/1.APN.5.6.066002.short" target="_blank" rel="noopener"><em>“Tunable Phase-Coherent FWM for Quantum Wavelength Interconnects,”</em></a> has been accepted by <em>Advanced Photonics Nexus</em>.</li>
+      <li><span class="news-date">2026.08</span>🎉 Our paper, <a href="https://www.spiedigitallibrary.org/journals/advanced-photonics/volume-8/issue-4/044003/Structured-light-at-the-extreme--harnessing-spatiotemporal-control-for/10.1117/1.AP.8.4.044003.short" target="_blank" rel="noopener"><em>“Structured Light at the Extreme: Harnessing Spatiotemporal Control for High-Field Laser-Matter Interactions,”</em></a> has been accepted by <em>Advanced Photonics</em>.</li>
+      <li><span class="news-date">2026.08</span>📰 Our quantum wavelength interconnects research has been featured by SPIE in <a href="https://spie.org/news/a-translator-for-quantum-light" target="_blank" rel="noopener"><em>“A Translator for Quantum Light.”</em></a></li>
       <li><span class="news-date">2026</span>🎉 Our work on deep learning-assisted modeling for chi(2) nonlinear optics has been published in <em>Advanced Photonics</em>.</li>
       <li><span class="news-date">2026</span>🎉 Our paper on vignetting-free upconversion imaging through scattering in ENZ materials has been published in <em>Light: Science &amp; Applications</em>.</li>
       <li><span class="news-date">2026</span>🎉 I will give an invited talk, <em>“Optical Shaping Meets Machine Learning,”</em> at OPTICA Advanced Photonics Congress.</li>
+    </ul><ul id="news-more" class="news-list more-items" hidden>
       <li><span class="news-date">2026</span>🎉 Our group will present three contributions at OPTICA Advanced Photonics Congress: two talks, including one invited talk, and one poster.</li>
       <li><span class="news-date">2026</span>🎉 Our group will present three posters at Frontiers in Optics + Laser Science (FiO+LS).</li>
       <li><span class="news-date">2026</span>🎉 Our group will present two contributions at the 33rd Linear Accelerator Conference (LINAC): one oral presentation and one poster.</li>
       <li><span class="news-date">2026</span>🎉 Our group will present three contributions at the Conference on Lasers and Electro-Optics (CLEO): two talks and one poster.</li>
       <li><span class="news-date">2025</span>🎉 I received the FiO+LS Technical Group Poster Competition Award, the IEEE Photonics Society Graduate Student Scholarship, and the SPIE Optics and Photonics Scholarship.</li>
-    </ul></div></section>
+    </ul><button class="load-more" id="load-news" type="button" aria-expanded="false" aria-controls="news-more">Load more</button></div></section>
     <section id="research"><div class="wrap"><h2>Research directions</h2><div class="grid">
       <article class="card"><img src="/images/research/ai-for-science.jpg?v=3" alt="Abstract visualization of AI integrated with physical science"><div class="card-body"><h3>AI for Science</h3><p>Physical AI, digital twins, deep learning, reinforcement learning, multimodal AI, and agentic AI for scientific discovery.</p></div></article>
       <article class="card"><img src="/images/research/ultrafast-optics.jpg?v=3" alt="Ultrafast laser pulse propagating through a hollow-core optical fiber"><div class="card-body"><h3>Ultrafast & Nonlinear Optics</h3><p>Optical waveform design, nonlinear frequency conversion, hollow-core fibers, and high-field light-matter interaction.</p></div></article>
@@ -117,6 +121,7 @@
         button.textContent = isHidden ? 'Show less' : 'Load more';
       });
     }
+    setupLoadMore('load-news', 'news-more');
     setupLoadMore('load-conferences', 'conference-more');
     setupLoadMore('load-recognition', 'recognition-more');
   </script>
