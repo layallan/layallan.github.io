@@ -59,6 +59,7 @@ article p { margin: 0; }
 .gallery-controls span { font-size: .88rem; font-variant-numeric: tabular-nums; min-width: 4em; text-align: center; }
 .gallery-controls button { width: 44px; height: 44px; border: 0; background: transparent; color: var(--link); font: inherit; font-size: 1.3rem; cursor: pointer; }
 .gallery-controls button:hover { background: #f2f5f7; }
+.gallery-controls .gallery-playback { width: auto; min-width: 50px; font-size: .9rem; }
 footer { padding-top: 16px; border-top: 1px solid var(--line); color: #666; font-size: .85rem; }
 
 @media (max-height: 750px) {
