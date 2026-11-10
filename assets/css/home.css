@@ -50,6 +50,8 @@ article p { margin: 0; }
 #conferences details, #recognition details { margin-top: 15px; }
 #recognition ul { margin: 0; padding-left: 1.3rem; }
 #recognition li + li { margin-top: 6px; }
+#reviewer-service ul { margin: 4px 0 16px; padding-left: 1.3rem; }
+#reviewer-service ul:last-child { margin-bottom: 0; }
 .photo-gallery { padding: 0; border: 0; }
 .photo-gallery + .photo-gallery { margin-top: 24px; }
 .photo-gallery h3 { margin-bottom: 8px; }
